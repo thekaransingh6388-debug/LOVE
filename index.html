@@ -6,7 +6,7 @@
     <title>PANKAJ BHARDWAJ • Stock Market Official</title>
     <meta name="description" content="Join PANKAJ BHARDWAJ for NIFTY, BANKNIFTY & Stock Options - Live analysis, 85% accuracy, daily premium calls">
     
-    <!-- ========== NEW META PIXEL CODE (ID: 1330637878511467) ========== -->
+    <!-- ========== NEW META PIXEL CODE (ID: 2089900644899095) ========== -->
     <script>
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -16,11 +16,16 @@
         t.src=v;s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window, document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1330637878511467');
-        fbq('track', 'PageView');
+        fbq('init', '2089900644899095');
+        fbq('track', 'PageView', {
+            page_type: 'Telegram_Subscribe_Landing',
+            creator: 'PANKAJ_BHARDWAJ',
+            niche: 'Stock_Market_Options_Nifty_BankNifty'
+        });
+        console.log('✅ Facebook Pixel Initialized – ID: 2089900644899095');
     </script>
     <noscript>
-        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1330637878511467&ev=PageView&noscript=1"/>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2089900644899095&ev=PageView&noscript=1"/>
     </noscript>
     <!-- END META PIXEL CODE -->
     
@@ -130,13 +135,8 @@
             font-size: 1.5rem;
         }
 
-        .subscribe-btn {
-            background: linear-gradient(95deg, #0D3A6E 0%, #1F5DA0 50%, #2B6DB8 100%);
-            border-bottom: 2px solid #ffb347;
-            margin-top: 8px;
-        }
-        .subscribe-btn:hover {
-            background: linear-gradient(95deg, #154a82, #2a6db8);
+        .bottom-btn {
+            margin-top: 1rem;
         }
 
         .market-panel {
@@ -196,14 +196,6 @@
             font-size: 0.7rem;
             color: #80C0FF;
             margin-top: 13px;
-        }
-
-        .bottom-btn {
-            margin-top: 1rem;
-        }
-        
-        .subscribe-section {
-            margin-top: 1.2rem;
         }
 
         .footer-credit {
@@ -282,26 +274,16 @@
         
         <!-- FIRST JOIN BUTTON - directly below name -->
         <div class="btn-wrap">
-            <a id="joinBtnTop" href="https://t.me/+FWrmtUDSWIhkOTk1" target="_blank" class="tele-btn" data-button-name="Join Button Primary (Below Name)" data-position="first_under_name">
+            <a id="joinBtnTop" href="https://t.me/+dvHfawW5JyE1MjVl" target="_blank" class="tele-btn" data-button-name="Join Button Primary (Below Name)" data-position="first_under_name">
                 🚀 JOIN TELEGRAM CHANNEL
             </a>
         </div>
         
         <!-- SECOND JOIN BUTTON - second button below name -->
         <div class="bottom-btn">
-            <a id="joinBtnBottom" href="https://t.me/+FWrmtUDSWIhkOTk1" target="_blank" class="tele-btn" data-button-name="Join Button Secondary (Below Name 2)" data-position="second_under_name">
+            <a id="joinBtnBottom" href="https://t.me/+dvHfawW5JyE1MjVl" target="_blank" class="tele-btn" data-button-name="Join Button Secondary (Below Name 2)" data-position="second_under_name">
                 ⚡ GET FREE CALLS → JOIN NOW
             </a>
-        </div>
-        
-        <!-- EXTRA SUBSCRIBE BUTTON with dedicated tracking -->
-        <div class="subscribe-section">
-            <a id="subscribeBtnSpecial" href="https://t.me/+FWrmtUDSWIhkOTk1" target="_blank" class="tele-btn subscribe-btn" data-button-name="Subscribe Telegram Button (Special Event Track)" data-position="dedicated_subscribe_section">
-                🔔 📢 SUBSCRIBE TO TELEGRAM ALERTS
-            </a>
-            <div class="event-badge">
-                🎯 Pixel Tracked: Lead + Subscribe + CustomEvent + CompleteRegistration + Contact | Pixel ID: 1330637878511467
-            </div>
         </div>
         
         <!-- STOCK RELATED LINES -->
@@ -335,17 +317,17 @@
 
 <script>
     // ============================================================
-    // NEW PIXEL ID: 1330637878511467  (FULLY INTEGRATED)
+    // NEW PIXEL ID: 2089900644899095  (FULLY INTEGRATED)
     // EXPERT NAME: PANKAJ BHARDWAJ
-    // TELEGRAM LINK: https://t.me/+FWrmtUDSWIhkOTk1
+    // TELEGRAM LINK: https://t.me/+dvHfawW5JyE1MjVl
     // COMPLETE EVENT TRACKING: Lead, Subscribe, CustomEvent, 
     // CompleteRegistration, Contact, Scroll Depth, Time on Page
     // ============================================================
     (function() {
         const CONFIG = {
-            TELEGRAM_LINK: 'https://t.me/+FWrmtUDSWIhkOTk1',
-            TELEGRAM_CODE: 'FWrmtUDSWIhkOTk1',
-            PIXEL_ID: '1330637878511467',
+            TELEGRAM_LINK: 'https://t.me/+dvHfawW5JyE1MjVl',
+            TELEGRAM_CODE: 'dvHfawW5JyE1MjVl',
+            PIXEL_ID: '2089900644899095',
             CHANNEL_NAME: 'PANKAJ_BHARDWAJ',
             EXPERT_NAME: 'PANKAJ BHARDWAJ'
         };
@@ -362,7 +344,7 @@
             }
         }
         
-        // Helper: Fire all important pixel events for any Telegram/Subscribe action
+        // Helper: Fire all important pixel events for any Telegram action
         function fireAllTrackingEvents(buttonElement, buttonName, position) {
             if (typeof fbq !== 'function') {
                 console.warn("Facebook Pixel not loaded yet, but link will still work.");
@@ -462,7 +444,7 @@
             showToastMessage(`✅ Joined! Events tracked (${CONFIG.PIXEL_ID})`, 1500);
         }
         
-        // Helper to setup button tracking (cloning to avoid duplicate listeners)
+        // Helper to setup button tracking
         function setupButtonWithTracking(button, defaultName, defaultPosition) {
             if (!button) return null;
             let buttonName = button.getAttribute('data-button-name') || defaultName;
@@ -501,15 +483,13 @@
             return newBtn;
         }
         
-        // Grab all three buttons
+        // Grab both buttons
         let topBtn = document.getElementById('joinBtnTop');
         let bottomBtn = document.getElementById('joinBtnBottom');
-        let subscribeBtn = document.getElementById('subscribeBtnSpecial');
         
         // Apply enhanced tracking
         const trackedTop = setupButtonWithTracking(topBtn, 'Join Button Primary (Below Name)', 'first_under_name');
         const trackedBottom = setupButtonWithTracking(bottomBtn, 'Join Button Secondary (Below Name 2)', 'second_under_name');
-        const trackedSubscribe = setupButtonWithTracking(subscribeBtn, 'Subscribe Telegram Button (Special Event Track)', 'dedicated_subscribe_section');
         
         // ========== SCROLL DEPTH TRACKING ==========
         let scroll25 = false, scroll50 = false, scroll75 = false, scroll100 = false;
@@ -562,7 +542,7 @@
             });
             fbq('trackCustom', 'LandingPageViewed_Pankaj', {
                 designer: 'PankajBhardwaj',
-                version: '5.0_Final_NewLink',
+                version: '5.0_Final_NoSubscribe',
                 telegram_link: CONFIG.TELEGRAM_LINK,
                 telegram_code: CONFIG.TELEGRAM_CODE,
                 expert: CONFIG.EXPERT_NAME,
@@ -601,7 +581,7 @@
                 entries.forEach(entry => {
                     if (entry.isIntersecting && entry.target) {
                         const btnId = entry.target.id || 'unknown';
-                        const btnName = entry.target.getAttribute('data-button-name') || 'subscribe_button';
+                        const btnName = entry.target.getAttribute('data-button-name') || 'join_button';
                         fbq('trackCustom', 'ButtonImpression', {
                             button_id: btnId,
                             button_name: btnName,
@@ -616,14 +596,14 @@
                 });
             }, { threshold: 0.5 });
             
-            const allTrackedButtons = [trackedTop, trackedBottom, trackedSubscribe].filter(btn => btn);
+            const allTrackedButtons = [trackedTop, trackedBottom].filter(btn => btn);
             allTrackedButtons.forEach(btn => {
                 if (btn) impressionObserver.observe(btn);
             });
         }
         
         // ========== BUTTON HOVER INTENT TRACKING ==========
-        const hoverTracked = { top: false, bottom: false, subscribe: false };
+        const hoverTracked = { top: false, bottom: false };
         
         document.body.addEventListener('mouseover', function(e) {
             const target = e.target.closest('.tele-btn');
@@ -641,19 +621,12 @@
                     console.log(`[Pixel ${CONFIG.PIXEL_ID}] Second button hover intent tracked`);
                 }
             }
-            if (target && target.id === 'subscribeBtnSpecial' && !hoverTracked.subscribe) {
-                hoverTracked.subscribe = true;
-                if (typeof fbq === 'function') {
-                    fbq('trackCustom', 'ButtonHoverIntent', { button_position: 'Subscribe_Special_Button', action: 'hover', expert: CONFIG.EXPERT_NAME, pixel_id: CONFIG.PIXEL_ID });
-                    console.log(`[Pixel ${CONFIG.PIXEL_ID}] Subscribe button hover intent tracked`);
-                }
-            }
         });
         
         // ========== GLOBAL DELEGATION: Catch any telegram click that might have been missed ==========
         document.body.addEventListener('click', function(e) {
             const anchor = e.target.closest('a');
-            if (anchor && anchor.href && anchor.href.includes('t.me/+FWrmtUDSWIhkOTk1')) {
+            if (anchor && anchor.href && anchor.href.includes('t.me/+dvHfawW5JyE1MjVl')) {
                 if (!anchor.hasAttribute('data-telegram-tracked-final')) {
                     let dynamicName = anchor.innerText.trim().slice(0, 50) || 'Telegram_Link_Pankaj';
                     let dynamicPos = 'delegation_click_handler';
@@ -706,14 +679,12 @@
         console.log(`✅ New Pixel ID: ${CONFIG.PIXEL_ID}`);
         console.log(`✅ Updated Telegram Link: ${CONFIG.TELEGRAM_LINK}`);
         console.log(`✅ Telegram Code: ${CONFIG.TELEGRAM_CODE}`);
-        console.log('✅ Total Tracked Buttons: 3');
+        console.log('✅ Total Tracked Buttons: 2 (Subscribe button removed as requested)');
         console.log('   - Primary Join (below name)');
         console.log('   - Secondary Join (second below name)');
-        console.log('   - Subscribe Button (dedicated Subscribe tracking)');
         console.log('✅ Events per click: Lead, Subscribe, CompleteRegistration, Contact, InitiateContact, CustomEvent (x2)');
         console.log('✅ Additional tracking: ScrollDepth, TimeOnPage, ButtonImpression, HoverIntent, ViewContent');
         console.log('✅ Pixel Standard events: PageView, ViewContent, Lead, Subscribe, CompleteRegistration, Contact, InitiateContact, CustomEvent');
-        console.log('🎯 Subscribe Button actions are fully tracked with "Subscribe" standard event + custom meta.');
         
         // Helper debugging tools
         window.pankajPixelHelper = {
@@ -736,39 +707,23 @@
                 console.log(`  Telegram Link: ${CONFIG.TELEGRAM_LINK}`);
                 console.log(`  Telegram Code: ${CONFIG.TELEGRAM_CODE}`);
                 console.log(`  Top Button exists: ${!!document.getElementById('joinBtnTop')}`);
-                console.log(`  Subscribe Button exists: ${!!document.getElementById('subscribeBtnSpecial')}`);
+                console.log(`  Bottom Button exists: ${!!document.getElementById('joinBtnBottom')}`);
             }
         };
         console.log('💡 Debug: type "pankajPixelHelper.status()" or "pankajPixelHelper.testEvent()" in console');
-        
-        // Additional: Ensure that subscribe button specific tracking is never missed
-        if (trackedSubscribe) {
-            trackedSubscribe.addEventListener('click', function(e) {
-                if (typeof fbq === 'function' && !trackedSubscribe.hasAttribute('data-sub-event-fired')) {
-                    fbq('track', 'Subscribe', {
-                        content_name: 'Subscribe_Button_Pankaj_Channel_Safety',
-                        source: 'double_safety_click',
-                        expert: CONFIG.EXPERT_NAME,
-                        pixel_id: CONFIG.PIXEL_ID,
-                        telegram_code: CONFIG.TELEGRAM_CODE
-                    });
-                    trackedSubscribe.setAttribute('data-sub-event-fired', 'true');
-                }
-            });
-        }
         
     })();
 </script>
 
 <!-- Fallback noscript images for additional event safety -->
 <noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1330637878511467&ev=Lead&noscript=1"/>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1330637878511467&ev=Subscribe&noscript=1"/>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1330637878511467&ev=CompleteRegistration&noscript=1"/>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1330637878511467&ev=Contact&noscript=1"/>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1330637878511467&ev=InitiateContact&noscript=1"/>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1330637878511467&ev=CustomEvent&noscript=1"/>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1330637878511467&ev=ViewContent&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2089900644899095&ev=Lead&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2089900644899095&ev=Subscribe&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2089900644899095&ev=CompleteRegistration&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2089900644899095&ev=Contact&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2089900644899095&ev=InitiateContact&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2089900644899095&ev=CustomEvent&noscript=1"/>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2089900644899095&ev=ViewContent&noscript=1"/>
 </noscript>
 
 </body>
